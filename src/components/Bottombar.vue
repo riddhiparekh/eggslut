@@ -10,12 +10,12 @@
       <div class="col-lg-6 col-md-8 p-0">
         <div class="footer-menu-links">
           <ul>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
+            <li><router-link to="/details/blog">Blog</router-link></li>
+            <li><router-link to="/details/about">About</router-link></li>
+            <li><router-link to="/details/contact">Contact</router-link></li>
+            <li><router-link to="/details/careers">Careers</router-link></li>
+            <li><router-link to="/details/privacy">Privacy</router-link></li>
+            <li><router-link to="/details/terms">Terms</router-link></li>
           </ul>
         </div>
       </div>

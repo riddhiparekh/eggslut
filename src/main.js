@@ -7,17 +7,13 @@ import * as VueGoogleMaps from 'vue2-google-maps'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import VModal from 'vue-js-modal'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './assets/css/style.scss'
-
-import 'bootstrap';
-// import plugins individually - require exports-loader
-import 'bootstrap/js/dist/modal'
-import 'bootstrap/js/dist/tooltip'
-
-// import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/scss/bootstrap.scss'
 import './assets/js/wow.min.js'
 
+Vue.use(BootstrapVue)
 Vue.use(VModal) 
 Vue.use(VueAxios, axios)
 Vue.use(VueGoogleMaps, {
