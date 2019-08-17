@@ -14,4 +14,4 @@ self.addEventListener('activate', () => {
       windowClient.navigate(windowClient.url);
     }
   });
-});
+}); 

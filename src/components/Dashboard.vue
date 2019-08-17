@@ -61,7 +61,6 @@ export default {
         resAddress: '317 S Broadway, Los Angeles, CA 90013, USA'
       })
       .then((response) => {
-        console.log(response.data)
         this.resDetails = response.data
       })
       .catch((error) => {
