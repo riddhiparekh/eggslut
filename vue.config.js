@@ -1,4 +1,18 @@
-// vue.config.js
+const CompressionWebpackPlugin = require("compression-webpack-plugin");
+
 module.exports = {
-publicPath: 'Rest-reviews'
-} 
+
+  configureWebpack: {
+
+    plugins: [
+      new CompressionWebpackPlugin({
+        filename: "[path].gz[query]",
+        algorithm: "gzip",
+        test: /\.(js|css)$/,
+       ...
+
+      })
+    ]
+  },
+  // publicPath: 'Rest-reviews'
+};
