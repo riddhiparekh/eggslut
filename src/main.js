@@ -10,12 +10,15 @@ import VModal from 'vue-js-modal'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import './assets/css/font-awesome.min.css'
 import './assets/css/style.scss'
 import './assets/js/wow.min.js'
+import VueLazyload from 'vue-lazyload'
 
 Vue.use(BootstrapVue)
 Vue.use(VModal) 
 Vue.use(VueAxios, axios)
+Vue.use(VueLazyload)
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyCN9-CZNP8_qpNvqIg05faRoyD7L-Anoso',

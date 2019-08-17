@@ -2,7 +2,7 @@
 	 <header class="main-header">
       <div class="container p-0">
           <nav class="">
-              <a class="logo-box" href="#"><img src="@/assets/images/icon-logo-word-40@2x.png"></a>
+              <a class="logo-box" href="#" v-lazy-container="{ selector: 'img' }"><img src="@/assets/images/icon-logo-word-40@2x.png" alt="image"></a>
             <a class="top-right-btn " href="#">
               <i class="fa fa-apple" aria-hidden="true"></i>GET MARKK
             </a>

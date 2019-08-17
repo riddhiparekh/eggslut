@@ -7,23 +7,23 @@
       </div>
       <div class="post-detail">
         <div class="top-row">
-          <div class="usericon">
-            <img :src="getImgUrl(cardData.cardAvatar)">
+          <div class="usericon" v-lazy-container="{ selector: 'img' }">
+            <img :src="getImgUrl(cardData.cardAvatar)" alt="image">
           </div>
-          <div class="view-count">
-            <img height="18" src="@/assets/images/icon-camera-regular-16-white-100-copy.svg">
+          <div class="view-count" v-lazy-container="{ selector: 'img' }">
+            <img height="18" src="@/assets/images/icon-camera-regular-16-white-100-copy.svg" alt="image">
             <span>{{cardData.cardImgCount}}</span>
           </div>
         </div>
         <div class="bottom-row">
-          <div class="like-post">
-            <img src="@/assets/images/icon-heart-full-16-white-75-copy.svg"><span>{{cardData.cardLikes}}</span>
+          <div class="like-post" v-lazy-container="{ selector: 'img' }">
+            <img src="@/assets/images/icon-heart-full-16-white-75-copy.svg" alt="image"><span>{{cardData.cardLikes}}</span>
           </div>
-          <div class="comments">
-            <img src="@/assets/images/icon-comment-16-white-75-copy.svg"><span>{{cardData.cardCmnts}}</span>
+          <div class="comments" v-lazy-container="{ selector: 'img' }">
+            <img src="@/assets/images/icon-comment-16-white-75-copy.svg" alt="image"><span>{{cardData.cardCmnts}}</span>
           </div>
-          <div class="share-post">
-            <img src="@/assets/images/icon-share-16-white-75-copy.svg"><span>{{cardData.cardShare}}</span>
+          <div class="share-post" v-lazy-container="{ selector: 'img' }">
+            <img src="@/assets/images/icon-share-16-white-75-copy.svg" alt="image"><span>{{cardData.cardShare}}</span>
           </div>
         </div>
       </div>
