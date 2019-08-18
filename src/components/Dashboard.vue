@@ -12,15 +12,15 @@
                 <span>{{resDetails.resAddress}}</span>
               </div>
               <div class="mapouter">
-                <GmapMap ref="mapRef" :center="{lat:34.050609, lng:-118.248629}" :zoom="19" map-type-id="roadmap" style="width: 538px; height: 120px" :options="{
+                <GmapMap ref="mapRef" :center="{lat:34.050609, lng:-118.248629}" :zoom="19" map-type-id="roadmap" style="width: 100%; height: 120px" :options="{
                      zoomControl: false,
                      mapTypeControl: false,
                      scaleControl: false,
                      streetViewControl: true,
                      rotateControl: false,
                      fullscreenControl: false,
-                     disableDefaultUi: false,
-                     draggable:true
+                     disableDefaultUi: true,
+                     draggable:true,
                    }">
 
                    <GmapCircle v-for="(pin, index) in markers" :key="index" :center="pin.position" :radius="1.5" :visible="true" :options="{fillColor:'#D21D1D',fillOpacity:0.7,strokeColor:'#fff', strokeWeight: 2}"></GmapCircle>
