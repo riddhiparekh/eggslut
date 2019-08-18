@@ -21,7 +21,7 @@ Vue.use(VueAxios, axios)
 Vue.use(VueLazyload)
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyCN9-CZNP8_qpNvqIg05faRoyD7L-Anoso',
+    key: 'google-maps-api-key-here',
     libraries: 'places'
   }
 })
