@@ -23,9 +23,9 @@
     <div class="row">
       <div class="col-md-12">
         <div class="social-links">
-          <a href="#" v-lazy-container="{ selector: 'img' }"><img src="@/assets/images/icon-twitter.svg" alt="image"></a>
-          <a href="#" v-lazy-container="{ selector: 'img' }"><img src="@/assets/images/icon-instagram.svg" alt="image"></a>
-          <a href="#" v-lazy-container="{ selector: 'img' }"><img src="@/assets/images/icon-facebook.svg" alt="image"></a>
+          <a href="#"><img src="@/assets/images/icon-twitter.svg" alt="image"></a>
+          <a href="#"><img src="@/assets/images/icon-instagram.svg" alt="image"></a>
+          <a href="#"><img src="@/assets/images/icon-facebook.svg" alt="image"></a>
         </div>
       </div>
     </div>
